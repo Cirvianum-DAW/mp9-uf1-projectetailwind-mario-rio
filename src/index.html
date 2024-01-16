@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind CSS with Parcel</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <button
-      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-    >
-      Click me
-    </button>
-  </body>
+    <title>AirsoftMunteanu | Home</title>
+    <link rel="icon" type="image/x-icon" href="./images/target.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+</head>
+
+<body class="font-sans bg-gray-100">
+    <header role="header">
+        <nav class="bg-white shadow-lg">
+            <div class="container mx-auto">
+                <div class="flex items-center justify-between py-4">
+                    <a href="#home" class="text-lg font-semibold">AirsoftMunteanu</a>
+                    <div class="hidden md:flex space-x-4">
+                        <a href="#home">Home</a>
+                        <a href="./html/shop.html">Shop</a>
+                        <a href="./html/events.html">Events</a>
+                        <a href="./html/about.html">About</a>
+                        <a href="./html/policies.html">Policies</a>
+                        <a href="./html/contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="relative h-560 bg-cover"
+        style="background-image: url('https://source.unsplash.com/kVf7VRgg4p8/1920x1080');">
+        <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+            <h1 class="text-white text-center text-4xl font-semibold uppercase tracking-wider"></h1>
+        </div>
+    </section>
+</body>
+
 </html>
