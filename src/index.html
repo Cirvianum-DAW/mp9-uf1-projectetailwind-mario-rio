@@ -7,32 +7,79 @@
     <title>AirsoftMunteanu | Home</title>
     <link rel="icon" type="image/x-icon" href="./images/target.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <style>
+        body,
+        html {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
 <body class="font-sans bg-gray-100">
-    <header role="header">
-        <nav class="bg-white shadow-lg">
-            <div class="container mx-auto">
-                <div class="flex items-center justify-between py-4">
-                    <a href="#home" class="text-lg font-semibold">AirsoftMunteanu</a>
-                    <div class="hidden md:flex space-x-4">
-                        <a href="#home">Home</a>
-                        <a href="./html/shop.html">Shop</a>
-                        <a href="./html/events.html">Events</a>
-                        <a href="./html/about.html">About</a>
-                        <a href="./html/policies.html">Policies</a>
-                        <a href="./html/contact.html">Contact</a>
-                    </div>
-                </div>
+    <header>
+        <nav class="nav bg-gray-800 text-white text-lg py-6">
+            <div class="container lg:container flex justify-between items-center transition-all duration-300">
+                <h1 class="logo flex ml-20">
+                    <a href="#" class="text-white text-xl md:text-2xl lg:text-3xl font-bold">AirsoftMunteanu</a>
+                </h1>
+                <ul class="flex space-x-10">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="./html/shop.html">Shop</a></li>
+                    <li><a href="./html/events.html">Events</a></li>
+                    <li><a href="./html/about.html">About</a></li>
+                    <li><a href="./html/policies.html">Policies</a></li>
+                    <li><a href="./html/contact.html">Contact</a></li>
+                </ul>
             </div>
         </nav>
     </header>
-    <section id="home" class="relative h-560 bg-cover"
-        style="background-image: url('https://source.unsplash.com/kVf7VRgg4p8/1920x1080');">
-        <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-            <h1 class="text-white text-center text-4xl font-semibold uppercase tracking-wider"></h1>
+    <div class="hero bg-cover bg-bottom-center relative h-96" style="background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); background-size: cover; background-position: center center;">
+        <div class="container flex items-center justify-center text-white">
+            <div class="bg-black bg-opacity-50 absolute inset-0"></div>
+            <h1 class="text-4xl md:text-6xl lg:text-8xl font-bold mb-6">
+                Welcome to our website
+            </h1>
+            <p class="text-lg md:text-xl lg:text-2xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                repudiandae.
+            </p>
         </div>
+    </div>
+
+
+    <section class="container content mt-8">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl mb-8">content 1</h2>
+        <p class="text-gray-700 leading-6 mb-8">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, animi
+            sunt! Libero optio, asperiores quis ipsa eum eveniet labore nihil
+            expedita nostrum laborum dicta at deleniti sapiente atque assumenda quo
+            corrupti exercitationem animi minus nemo vero soluta alias perspiciatis!
+            Aspernatur, laborum consectetur repellat repellendus aliquam sed.
+            Cupiditate accusantium porro at quae, maxime itaque accusamus! Ipsam
+            tempore, illo similique officia neque asperiores eveniet omnis rem
+            veritatis cumque quos amet placeat dignissimos quisquam nesciunt quas.
+            Adipisci perspiciatis veniam, voluptatibus dolores doloremque quisquam
+            qui possimus, vero ab dolorum temporibus soluta libero similique
+            assumenda debitis dolorem ut perferendis incidunt nobis facere eaque.
+            Enim, nemo?
+        </p>
+        <h3 class="text-3xl md:text-4xl lg:text-5xl mb-8">content 2</h3>
+        <p class="text-gray-700 leading-6">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, animi
+            sunt! Libero optio, asperiores quis ipsa eum eveniet labore nihil
+            expedita nostrum laborum dicta at deleniti sapiente atque assumenda quo
+            corrupti exercitationem animi minus nemo vero soluta alias perspiciatis!
+            Aspernatur, laborum consectetur repellat repellendus aliquam sed.
+            Cupiditate accusantium porro at quae, maxime itaque accusamus! Ipsam
+            tempore, illo similique officia neque asperiores eveniet omnis rem
+            veritatis cumque quos amet placeat dignissimos quisquam nesciunt quas.
+            Adipisci perspiciatis veniam, voluptatibus dolores doloremque quisquam
+            qui possimus, vero ab dolorum temporibus soluta libero similique
+            assumenda debitis dolorem ut perferendis incidunt nobis facere eaque.
+            Enim, nemo?
+        </p>
     </section>
+    <script src="./js/navbar.js"></script>
 </body>
 
 </html>
