@@ -11,7 +11,7 @@
     />
   </head>
 
-  <body class="font-sans bg-gray-100">
+  <body class="font-sans bg-gray-100 flex flex-col min-h-screen">
     <!-- Navigation -->
     <nav class="bg-gray-800 p-4">
       <div class="container mx-auto flex justify-between items-center">
@@ -68,14 +68,40 @@
     </div>
 
     <!-- Content -->
-    <div class="container mx-auto mt-8">
-      <p></p>
-    </div>
+    <div class="container mx-auto mt-8 flex-1"><p></p></div>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white p-4 fixed bottom-0 w-full">
-      <div class="container mx-auto">
-        <p class="text-center">© 2024 AirsoftMunteanu. All rights reserved.</p>
+    <footer class="bg-gray-800 text-white p-6 mt-8">
+      <div class="container mx-auto flex flex-wrap justify-center items-center">
+        <!-- Location -->
+        <div class="footer-section mb-4 mx-4">
+          <img
+            src="../images/pin.png"
+            alt="Location Logo"
+            class="w-8 h-8 mb-2 mx-auto"
+          />
+          <p class="text-sm text-center">123 Main Street, Cityville, Country</p>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="footer-section mb-4 mx-4">
+          <img
+            src="../images/telephone-symbol-button.png"
+            alt="Phone Logo"
+            class="w-8 h-8 mb-2 mx-auto"
+          />
+          <p class="text-sm text-center">Phone: +1 (555) 123-4567</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-section mb-4 mx-4">
+          <img
+            src="../images/contact-form.png"
+            alt="Contact Logo"
+            class="w-8 h-8 mb-2 mx-auto"
+          />
+          <p class="text-sm text-center">Email: info@example.com</p>
+        </div>
       </div>
     </footer>
 
